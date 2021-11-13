@@ -1,0 +1,63 @@
+.voicesLoading {
+  width: 100%;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.voicesError {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: red;
+  padding-top: 40px;
+  font-size: 25px;
+}
+
+.voicesWrap {
+  padding-top: 50px;
+}
+
+.voicesFilter {
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 50px;
+}
+
+.select {
+  width: 130px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.voices {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.voice {
+  width: 250px;
+  margin: 0 10px 25px;
+  border: 1px solid grey;
+  background-color: #faf0e6;
+  border-radius: 5px;
+  padding: 15px 20px;
+  box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+}
+
+.voice h3 {
+  margin-bottom: 15px;
+}
+
+.voice span {
+  font-weight: bold;
+  color: green;
+}
+
+.voice div {
+  margin-bottom: 10px;
+}
